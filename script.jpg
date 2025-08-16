@@ -1,0 +1,15 @@
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.Typed) {
+    var typed = new Typed(".typing", {
+      strings: [
+        "Digital Health Innovator",
+        "Curriculum Designer",
+        "Physiotherapist",
+        "Faculty Mentor"
+      ],
+      typeSpeed: 85,
+      backSpeed: 48,
+      loop: true
+    });
+  }
+});
